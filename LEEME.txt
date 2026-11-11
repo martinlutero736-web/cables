@@ -1,0 +1,46 @@
+CATÁLOGO PROFESIONAL DE CABLES ELÉCTRICOS
+
+ESTRUCTURA
+- index.html
+- css/estilos.css
+- js/productos.js
+- js/app.js
+- img/ (aquí guardas tus fotografías)
+
+IMÁGENES: NOMBRES EXACTOS
+Guarda las imágenes dentro de la carpeta img con estos nombres:
+1. cable-thhn.jpg
+2. cable-thwn.jpg
+3. cable-duplex.jpg
+4. cable-encauchetado.jpg
+5. cable-cobre.jpg
+6. cable-aluminio.jpg
+7. cable-potencia.jpg
+8. cable-coaxial.jpg
+9. cable-telefonico.jpg
+10. cable-control.jpg
+11. cable-solar.jpg
+
+Si una foto no está todavía en la carpeta, se mostrará un icono temporal. Cuando agregues la imagen con el nombre exacto, aparecerá automáticamente.
+
+WHATSAPP
+1. Abre js/app.js.
+2. Busca: const WHATSAPP = "573000000000";
+3. Reemplaza el número por el tuyo.
+   Colombia: 57 + tus 10 dígitos. Solo números, sin +, espacios ni guiones.
+
+EDITAR PRODUCTOS
+Abre js/productos.js. Puedes cambiar nombre, categoría, referencia, calibre, unidad, precio, descripción e imagen.
+- precio: null muestra "Consultar precio".
+- Para poner precio usa un número, por ejemplo precio: 2500.
+- Para cambiar una imagen edita la ruta, por ejemplo imagen: "img/cable-thhn.jpg".
+- Para agregar un producto, duplica un objeto y asigna un id único.
+
+IMPORTANTE
+Los productos que vienen son categorías iniciales, no referencias técnicas confirmadas. Completa referencias, calibres, fichas técnicas, certificaciones, precios y descripciones con información real del proveedor. No publiques especificaciones o usos no verificados.
+
+PRUEBA
+Abre la carpeta en VS Code y ejecuta index.html con Live Server. Prueba el botón flotante, el buscador, los filtros y el envío de cotización. WhatsApp abre el mensaje preparado; el cliente todavía debe pulsar Enviar.
+
+PUBLICACIÓN Y GOOGLE
+Sube la carpeta a un hosting con HTTPS. Usa datos de contacto reales, títulos y descripciones propias. Después registra el dominio en Google Search Console y solicita indexación. La aparición en Google no es inmediata ni garantizada.
